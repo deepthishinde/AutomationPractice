@@ -78,6 +78,7 @@ public class SignUpPageTest extends Base{
 		signup.City().sendKeys("Bangalore");
 		signup.Zipcode().sendKeys("234566");
 		signup.Mobile().sendKeys("9743784703");
+		log.info("Entered all details");
 		//signup.CreateAcc().click();
 	}
 	/*
