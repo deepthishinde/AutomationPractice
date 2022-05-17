@@ -51,7 +51,7 @@ public class LoginPageTest extends Base {
 		login.NewUserNameField().sendKeys(Name);
 		login.NewUserEmailField().sendKeys(Email);
 		login.NewUserSignUpButton().click();
-		log.info("Entered Usrname, Pwd & clicked on submit");
+		log.info("Entered Username Pwd & clicked on submit");
 		String actual_signupPageUrl=driver.getCurrentUrl();
 		String expected_signupPageUrl="https://www.automationexercise.com/signup";
 		Assert.assertEquals(actual_signupPageUrl,expected_signupPageUrl);	
