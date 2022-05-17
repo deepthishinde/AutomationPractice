@@ -1,0 +1,5 @@
+Full\AutomationPractice\LoginPageObject.class
+Full\AutomationPractice\SignUpPageObject.class
+resources\Base.class
+Full\AutomationPractice\HomePageObjects.class
+resources\ExtentReporterNG.class

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-16T16:21:47 AST" name="Default suite" finished-at="2022-05-16T16:21:55 AST" duration-ms="7366">
+    <groups>
+    </groups>
+    <test started-at="2022-05-16T16:21:47 AST" name="Default test" finished-at="2022-05-16T16:21:55 AST" duration-ms="7366">
+      <class name="Full.AutomationPractice.SignUpPageTest">
+        <test-method is-config="true" signature="getBrowserLogin()[pri:0, instance:Full.AutomationPractice.SignUpPageTest@6d3a388c]" started-at="2022-05-16T16:21:47 AST" name="getBrowserLogin" finished-at="2022-05-16T16:21:52 AST" duration-ms="4468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowserLogin -->
+        <test-method signature="NewUserSignup()[pri:1, instance:Full.AutomationPractice.SignUpPageTest@6d3a388c]" started-at="2022-05-16T16:21:52 AST" name="NewUserSignup" finished-at="2022-05-16T16:21:54 AST" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewUserSignup -->
+        <test-method signature="addressDetails()[pri:2, instance:Full.AutomationPractice.SignUpPageTest@6d3a388c]" started-at="2022-05-16T16:21:54 AST" name="addressDetails" finished-at="2022-05-16T16:21:55 AST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addressDetails -->
+      </class> <!-- Full.AutomationPractice.SignUpPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+11:54:04.415 [main] INFO  resources.Base - New User Login page is displayed
+11:54:10.278 [main] INFO  resources.Base - Driver is initialized
+11:54:12.618 [main] INFO  resources.Base - On New user SignUp Page
+11:54:14.012 [main] INFO  resources.Base - Entered Usrname, Pwd & clicked on submit
+11:54:14.786 [main] INFO  resources.Base - Entered all the details of New user & before clicking create account

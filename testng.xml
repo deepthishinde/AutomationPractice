@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Practice Suite">
+<listeners>
+<listener class-name="Full.AutomationPractice.Listeners"/>
+</listeners>
+
+<test name="HomePageTest">
+<classes>
+<class name="Full.AutomationPractice.HomePageTest"/>
+</classes>
+</test>
+
+<test name="LoginPageTest">
+<classes>
+<class name="Full.AutomationPractice.LoginPageTest"/>
+</classes>
+</test>
+
+<test name="SignUpPageTest">
+<classes>
+<class name="Full.AutomationPractice.SignUpPageTest"/>
+</classes>
+</test>
+
+
+
+</suite>

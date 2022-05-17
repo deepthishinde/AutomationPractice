@@ -1,0 +1,7 @@
+11:53:53.612 [main] INFO  resources.Base - Navigated to Automation Practice page
+11:53:53.802 [main] INFO  resources.Base - Home Page Title is displayed
+11:53:53.933 [main] INFO  resources.Base - Home Menu is available
+11:54:00.032 [main] INFO  resources.Base - Driver is initialized
+11:54:03.023 [main] INFO  resources.Base - Navigated to Automation Practice page
+11:54:04.313 [main] INFO  resources.Base - Clicked on Login Menu
+11:54:04.327 [main] INFO  resources.Base - Navigated to Login Page
