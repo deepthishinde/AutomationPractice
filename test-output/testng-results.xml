@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-22T17:49:00 AST" name="Default suite" finished-at="2022-05-22T17:49:11 AST" duration-ms="10710">
+  <suite started-at="2022-05-22T18:03:10 AST" name="Default suite" finished-at="2022-05-22T18:03:26 AST" duration-ms="15702">
     <groups>
     </groups>
-    <test started-at="2022-05-22T17:49:00 AST" name="Default test" finished-at="2022-05-22T17:49:11 AST" duration-ms="10710">
+    <test started-at="2022-05-22T18:03:10 AST" name="Default test" finished-at="2022-05-22T18:03:26 AST" duration-ms="15702">
       <class name="Full.AutomationPractice.CorrectLoginTest">
-        <test-method is-config="true" signature="getBrowser()[pri:0, instance:Full.AutomationPractice.CorrectLoginTest@2453f95d]" started-at="2022-05-22T17:49:00 AST" name="getBrowser" finished-at="2022-05-22T17:49:09 AST" duration-ms="8427" status="PASS">
+        <test-method is-config="true" signature="getBrowser()[pri:0, instance:Full.AutomationPractice.CorrectLoginTest@2453f95d]" started-at="2022-05-22T18:03:10 AST" name="getBrowser" finished-at="2022-05-22T18:03:16 AST" duration-ms="6117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowser -->
-        <test-method signature="validateCorrectLogin()[pri:0, instance:Full.AutomationPractice.CorrectLoginTest@2453f95d]" started-at="2022-05-22T17:49:09 AST" name="validateCorrectLogin" finished-at="2022-05-22T17:49:11 AST" duration-ms="2236" status="PASS">
+        <test-method signature="validateCorrectLogin()[pri:0, instance:Full.AutomationPractice.CorrectLoginTest@2453f95d]" started-at="2022-05-22T18:03:16 AST" name="validateCorrectLogin" finished-at="2022-05-22T18:03:25 AST" duration-ms="9381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCorrectLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Full.AutomationPractice.CorrectLoginTest@2453f95d]" started-at="2022-05-22T17:49:11 AST" name="tearDown" finished-at="2022-05-22T17:49:11 AST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Full.AutomationPractice.CorrectLoginTest@2453f95d]" started-at="2022-05-22T18:03:25 AST" name="tearDown" finished-at="2022-05-22T18:03:26 AST" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

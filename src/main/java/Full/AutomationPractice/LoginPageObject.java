@@ -20,8 +20,23 @@ public class LoginPageObject {
 	By NewUserName_xpath=By.name("name");
 	By NewUserEmail_xpath=By.xpath("//input[@data-qa='signup-email']");
 	By NewUserSignUpButton_xpath=By.xpath("//button[@data-qa='signup-button']");
+	By LoginExistEmail_xpath=By.xpath("//input[@data-qa='login-email']");
+	By LoginExistPwd_xpath=By.xpath("//input[@data-qa='login-password']");
+	By LoginExistBtn_xpath=By.xpath("//button[@data-qa='login-button']");
 		
 	//Webelements
+	public WebElement LoginExistButton()
+	{
+		return driver.findElement(LoginExistBtn_xpath);
+	}
+	public WebElement LoginExistPwd()
+	{
+		return driver.findElement(LoginExistPwd_xpath);
+	}
+	public WebElement LoginExistEmail()
+	{
+		return driver.findElement(LoginExistEmail_xpath);
+	}
 	public WebElement LoginMenuClick()
 	{
 		return driver.findElement(LoginMenuBlock);
