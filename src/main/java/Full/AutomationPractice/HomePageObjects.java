@@ -18,8 +18,13 @@ public class HomePageObjects {
 	By HomePageTitle=By.xpath("//div[@class='logo pull-left']");
 	By HomePageMenu=By.xpath("//ul[@class='nav navbar-nav']");
 	By HomePageMenu_Home=By.xpath("//ul[@class='nav navbar-nav']/li[1]");
+	By HomePageLoginMenu_xpath=By.xpath("//ul[@class='nav navbar-nav']/li[4]");
 	
 	//WEBELEMENTS DEFINITION
+	public WebElement HomePageLoginMenu()
+	{
+		return driver.findElement(HomePageLoginMenu_xpath);
+	}
 	public WebElement HomeTitle()
 	{
 		return driver.findElement(HomePageTitle);

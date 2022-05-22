@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-16T16:21:47 AST" name="Default suite" finished-at="2022-05-16T16:21:55 AST" duration-ms="7366">
+  <suite started-at="2022-05-22T17:49:00 AST" name="Default suite" finished-at="2022-05-22T17:49:11 AST" duration-ms="10710">
     <groups>
     </groups>
-    <test started-at="2022-05-16T16:21:47 AST" name="Default test" finished-at="2022-05-16T16:21:55 AST" duration-ms="7366">
-      <class name="Full.AutomationPractice.SignUpPageTest">
-        <test-method is-config="true" signature="getBrowserLogin()[pri:0, instance:Full.AutomationPractice.SignUpPageTest@6d3a388c]" started-at="2022-05-16T16:21:47 AST" name="getBrowserLogin" finished-at="2022-05-16T16:21:52 AST" duration-ms="4468" status="PASS">
+    <test started-at="2022-05-22T17:49:00 AST" name="Default test" finished-at="2022-05-22T17:49:11 AST" duration-ms="10710">
+      <class name="Full.AutomationPractice.CorrectLoginTest">
+        <test-method is-config="true" signature="getBrowser()[pri:0, instance:Full.AutomationPractice.CorrectLoginTest@2453f95d]" started-at="2022-05-22T17:49:00 AST" name="getBrowser" finished-at="2022-05-22T17:49:09 AST" duration-ms="8427" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBrowserLogin -->
-        <test-method signature="NewUserSignup()[pri:1, instance:Full.AutomationPractice.SignUpPageTest@6d3a388c]" started-at="2022-05-16T16:21:52 AST" name="NewUserSignup" finished-at="2022-05-16T16:21:54 AST" duration-ms="2114" status="PASS">
+        </test-method> <!-- getBrowser -->
+        <test-method signature="validateCorrectLogin()[pri:0, instance:Full.AutomationPractice.CorrectLoginTest@2453f95d]" started-at="2022-05-22T17:49:09 AST" name="validateCorrectLogin" finished-at="2022-05-22T17:49:11 AST" duration-ms="2236" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NewUserSignup -->
-        <test-method signature="addressDetails()[pri:2, instance:Full.AutomationPractice.SignUpPageTest@6d3a388c]" started-at="2022-05-16T16:21:54 AST" name="addressDetails" finished-at="2022-05-16T16:21:55 AST" duration-ms="761" status="PASS">
+        </test-method> <!-- validateCorrectLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Full.AutomationPractice.CorrectLoginTest@2453f95d]" started-at="2022-05-22T17:49:11 AST" name="tearDown" finished-at="2022-05-22T17:49:11 AST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addressDetails -->
-      </class> <!-- Full.AutomationPractice.SignUpPageTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- Full.AutomationPractice.CorrectLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

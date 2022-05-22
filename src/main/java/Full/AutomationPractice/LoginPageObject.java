@@ -18,7 +18,7 @@ public class LoginPageObject {
 	By LoginMenuBlock=By.xpath("//ul[@class='nav navbar-nav']/li[4]");
 	By NewUserLoginText_xpath=By.xpath("//h2[text()='New User Signup!']");
 	By NewUserName_xpath=By.name("name");
-	By NewUserEmail_xpath=By.name("//input[@data-qa='signup-email']");
+	By NewUserEmail_xpath=By.xpath("//input[@data-qa='signup-email']");
 	By NewUserSignUpButton_xpath=By.xpath("//button[@data-qa='signup-button']");
 		
 	//Webelements
