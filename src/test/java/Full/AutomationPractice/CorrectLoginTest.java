@@ -6,6 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import resources.Base;
 
@@ -23,6 +24,12 @@ public class CorrectLoginTest extends Base{
 		prop.load(fis);
 		driver.get(prop.getProperty("url"));
 		log.info("Navigated to Automation Practice page");
+	}
+	
+	@Test
+	public void validateCorrectLogin()
+	{
+		
 	}
 	
 
