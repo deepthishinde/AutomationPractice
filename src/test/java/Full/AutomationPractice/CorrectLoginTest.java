@@ -52,7 +52,8 @@ public class CorrectLoginTest extends Base{
 		login.LoginMenuClick().click();
 		String actual_loginPageUrl1=driver.getCurrentUrl();
 		String expected_loginPageUrl1="https://www.automationexercise.com/login";
-		Assert.assertEquals(actual_loginPageUrl1,expected_loginPageUrl1);		
+		Assert.assertEquals(actual_loginPageUrl1,expected_loginPageUrl1);	
+		log.info("Correct Login User validated");
 		
 	}
 	
