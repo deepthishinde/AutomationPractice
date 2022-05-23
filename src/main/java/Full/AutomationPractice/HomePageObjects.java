@@ -19,8 +19,14 @@ public class HomePageObjects {
 	By HomePageMenu=By.xpath("//ul[@class='nav navbar-nav']");
 	By HomePageMenu_Home=By.xpath("//ul[@class='nav navbar-nav']/li[1]");
 	By HomePageLoginMenu_xpath=By.xpath("//ul[@class='nav navbar-nav']/li[4]");
+	By ContactUs_xpath=By.xpath("//ul[@class='nav navbar-nav']/li[7]");
+	
 	
 	//WEBELEMENTS DEFINITION
+	public WebElement ContactUs()
+	{
+		return driver.findElement(ContactUs_xpath);
+	}
 	public WebElement HomePageLoginMenu()
 	{
 		return driver.findElement(HomePageLoginMenu_xpath);

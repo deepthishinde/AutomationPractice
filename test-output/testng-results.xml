@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-23T10:00:53 AST" name="Default suite" finished-at="2022-05-23T10:01:04 AST" duration-ms="10811">
+  <suite started-at="2022-05-23T14:43:00 AST" name="Default suite" finished-at="2022-05-23T14:43:16 AST" duration-ms="16472">
     <groups>
     </groups>
-    <test started-at="2022-05-23T10:00:53 AST" name="Default test" finished-at="2022-05-23T10:01:04 AST" duration-ms="10811">
-      <class name="Full.AutomationPractice.IncorrectLoginTest">
-        <test-method is-config="true" signature="getBrowser()[pri:0, instance:Full.AutomationPractice.IncorrectLoginTest@2453f95d]" started-at="2022-05-23T10:00:53 AST" name="getBrowser" finished-at="2022-05-23T10:01:00 AST" duration-ms="6700" status="PASS">
+    <test started-at="2022-05-23T14:43:00 AST" name="Default test" finished-at="2022-05-23T14:43:16 AST" duration-ms="16472">
+      <class name="Full.AutomationPractice.ContactUs">
+        <test-method is-config="true" signature="getBrowser()[pri:0, instance:Full.AutomationPractice.ContactUs@2453f95d]" started-at="2022-05-23T14:43:00 AST" name="getBrowser" finished-at="2022-05-23T14:43:13 AST" duration-ms="12636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowser -->
-        <test-method signature="validateIncorrectLogin()[pri:0, instance:Full.AutomationPractice.IncorrectLoginTest@2453f95d]" started-at="2022-05-23T10:01:00 AST" name="validateIncorrectLogin" finished-at="2022-05-23T10:01:04 AST" duration-ms="4072" status="PASS">
+        <test-method signature="validateContactUs()[pri:0, instance:Full.AutomationPractice.ContactUs@2453f95d]" started-at="2022-05-23T14:43:13 AST" name="validateContactUs" finished-at="2022-05-23T14:43:16 AST" duration-ms="3764" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateIncorrectLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Full.AutomationPractice.IncorrectLoginTest@2453f95d]" started-at="2022-05-23T10:01:04 AST" name="tearDown" finished-at="2022-05-23T10:01:04 AST" duration-ms="0" status="PASS">
+        </test-method> <!-- validateContactUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Full.AutomationPractice.ContactUs@2453f95d]" started-at="2022-05-23T14:43:16 AST" name="tearDown" finished-at="2022-05-23T14:43:16 AST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Full.AutomationPractice.IncorrectLoginTest -->
+      </class> <!-- Full.AutomationPractice.ContactUs -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,8 +1,7 @@
-18:02:15.637 [main] INFO  resources.Base - Home Page Title is displayed
-18:02:17.591 [main] INFO  resources.Base - Navigated to Login Page
-18:03:11.990 [main] INFO  resources.Base - Driver is initialized
-18:03:16.481 [main] INFO  resources.Base - Navigated to Automation Practice page
-18:03:16.615 [main] INFO  resources.Base - Home Page Title is displayed
-18:03:18.578 [main] INFO  resources.Base - Navigated to Login Page
-10:00:55.764 [main] INFO  resources.Base - Driver is initialized
-10:01:00.622 [main] INFO  resources.Base - Navigated to Automation Practice page
+13:27:31.218 [main] INFO  resources.Base - Navigated to Automation Practice page
+13:27:33.558 [main] INFO  resources.Base - Entered Usrname, Pwd & clicked on submit
+14:07:31.039 [main] INFO  resources.Base - Driver is initialized
+14:07:35.224 [main] INFO  resources.Base - Navigated to Automation Practice page
+14:40:18.784 [main] INFO  resources.Base - Driver is initialized
+14:40:24.436 [main] INFO  resources.Base - Navigated to Automation Practice page
+14:43:02.030 [main] INFO  resources.Base - Driver is initialized

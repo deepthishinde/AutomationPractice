@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Full.AutomationPractice.SignUpPageTest">
+      <class name="Full.AutomationPractice.ExistingUserRegister">
         <methods>
-          <include name="AccountCreated"/>
-          <include name="addressDetails"/>
-          <include name="NewUserSignup"/>
-          <include name="getBrowserLogin"/>
+          <include name="getBrowser"/>
+          <include name="validateExistingEmailUser"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Full.AutomationPractice.SignUpPageTest -->
+      </class> <!-- Full.AutomationPractice.ExistingUserRegister -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
