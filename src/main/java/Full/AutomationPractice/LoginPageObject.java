@@ -23,8 +23,13 @@ public class LoginPageObject {
 	By LoginExistEmail_xpath=By.xpath("//input[@data-qa='login-email']");
 	By LoginExistPwd_xpath=By.xpath("//input[@data-qa='login-password']");
 	By LoginExistBtn_xpath=By.xpath("//button[@data-qa='login-button']");
+	By IncorrectLoginMsg_xpath=By.xpath("//p[text()='Your email or password is incorrect!']");
 		
 	//Webelements
+	public WebElement IncorrectLoginMsg()
+	{
+		return driver.findElement(IncorrectLoginMsg_xpath);
+	}
 	public WebElement LoginExistButton()
 	{
 		return driver.findElement(LoginExistBtn_xpath);
