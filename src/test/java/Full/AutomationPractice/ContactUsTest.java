@@ -48,7 +48,7 @@ public class ContactUsTest extends Base{
 		con.ContactUsMsg().sendKeys(prop.getProperty("contactUsMsg"));
 		con.ContactUsChooseFile().sendKeys("C:\\Users\\DEEPTHI\\Desktop\\Test.docx");
 		con.ContactUsSubmit().click();
-		
+		//click on cancel from alert
 		Alert alert=driver.switchTo().alert();
 		alert.dismiss();
 		
