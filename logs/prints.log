@@ -1,1 +1,3 @@
-14:43:12.989 [main] INFO  resources.Base - Navigated to Automation Practice page
+14:50:53.728 [main] INFO  resources.Base - Entered Usrname, Pwd & clicked on submit
+14:50:54.590 [main] INFO  resources.Base - Entered all the details of New user & before clicking create account
+14:50:55.562 [main] INFO  resources.Base - Entered all details

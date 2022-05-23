@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import resources.Base;
 
-public class ContactUs extends Base{
+public class ContactUsTest extends Base{
 	public static Logger log=LogManager.getLogger(Base.class.getName());
 	public WebDriver driver;
 	HomePageObjects home;

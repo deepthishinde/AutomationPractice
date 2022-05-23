@@ -24,6 +24,25 @@
 </classes>
 </test>
 
+<test name="CorrectLoginTest">
+<classes>
+<class name="Full.AutomationPractice.CorrectLoginTest"/>
+</classes>
+</test>
+
+<test name="IncorrectLoginTest">
+<classes>
+<class name="Full.AutomationPractice.IncorrectLoginTest"/>
+</classes>
+</test>
+
+<test name="ContactUsTest">
+<classes>
+<class name="Full.AutomationPractice.ContactUsTest"/>
+</classes>
+</test>
+
+
 
 
 </suite>

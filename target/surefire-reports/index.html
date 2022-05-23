@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Automation_Practice_Suite" class="navigator-link">
-              <span class="suite-name border-failed">Automation Practice Suite</span>
+              <span class="suite-name border-passed">Automation Practice Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Automation_Practice_Suite" class="hide-methods failed suite-Automation_Practice_Suite"> (hide)</a> <!-- hide-methods failed suite-Automation_Practice_Suite -->
-                      <a href="#" panel-name="suite-Automation_Practice_Suite" class="show-methods failed suite-Automation_Practice_Suite"> (show)</a> <!-- show-methods failed suite-Automation_Practice_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Automation_Practice_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Practice_Suite" title="Full.AutomationPractice.LoginPageTest" class="method navigator-link" hash-for-method="loginNewUser">loginNewUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Automation_Practice_Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -136,6 +122,11 @@
                         <a href="#" panel-name="suite-Automation_Practice_Suite" title="Full.AutomationPractice.LoginPageTest" class="method navigator-link" hash-for-method="goToLoginPage">goToLoginPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Practice_Suite" title="Full.AutomationPractice.LoginPageTest" class="method navigator-link" hash-for-method="loginNewUser">loginNewUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Automation_Practice_Suite -->
                   </li>
                 </ul>
@@ -148,45 +139,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Automation_Practice_Suite" class="panel Automation_Practice_Suite">
-          <div class="suite-Automation_Practice_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Full.AutomationPractice.LoginPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginNewUser">
-                  </a> <!-- loginNewUser -->
-                  <span class="method-name">loginNewUser</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=101.0.4951.67)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-PRTCFI5V&apos;, ip: &apos;192.168.173.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEEPTHI\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bb08e67557bfec09e957b33f20e23cc2
-*** Element info: {Using=name, value=//input[@data-qa=&apos;signup-email&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at Full.AutomationPractice.LoginPageObject.NewUserEmailField(LoginPageObject.java:39)
-	at Full.AutomationPractice.LoginPageTest.loginNewUser(LoginPageTest.java:52)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Practice_Suite-class-failed -->
           <div class="suite-Automation_Practice_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -198,6 +150,13 @@ Session ID: bb08e67557bfec09e957b33f20e23cc2
                   <a name="goToLoginPage">
                   </a> <!-- goToLoginPage -->
                   <span class="method-name">goToLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginNewUser">
+                  </a> <!-- loginNewUser -->
+                  <span class="method-name">loginNewUser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -312,30 +271,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'NewUserSignup')
-data.setCell(0, 2, 'Full.AutomationPractice.SignUpPageTest')
-data.setCell(0, 3, 2167);
+data.setCell(0, 1, 'loginNewUser')
+data.setCell(0, 2, 'Full.AutomationPractice.LoginPageTest')
+data.setCell(0, 3, 3332);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'goToLoginPage')
-data.setCell(1, 2, 'Full.AutomationPractice.LoginPageTest')
-data.setCell(1, 3, 1299);
+data.setCell(1, 1, 'NewUserSignup')
+data.setCell(1, 2, 'Full.AutomationPractice.SignUpPageTest')
+data.setCell(1, 3, 3233);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addressDetails')
-data.setCell(2, 2, 'Full.AutomationPractice.SignUpPageTest')
-data.setCell(2, 3, 950);
+data.setCell(2, 1, 'goToLoginPage')
+data.setCell(2, 2, 'Full.AutomationPractice.LoginPageTest')
+data.setCell(2, 3, 1512);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ValidateHomePage')
-data.setCell(3, 2, 'Full.AutomationPractice.HomePageTest')
-data.setCell(3, 3, 265);
+data.setCell(3, 1, 'addressDetails')
+data.setCell(3, 2, 'Full.AutomationPractice.SignUpPageTest')
+data.setCell(3, 3, 971);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginNewUser')
-data.setCell(4, 2, 'Full.AutomationPractice.LoginPageTest')
-data.setCell(4, 3, 241);
+data.setCell(4, 1, 'ValidateHomePage')
+data.setCell(4, 2, 'Full.AutomationPractice.HomePageTest')
+data.setCell(4, 3, 222);
 window.suiteTableData['Automation_Practice_Suite']= { tableData: data, tableDiv: 'times-div-Automation_Practice_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Automation_Practice_Suite">
               </div> <!-- times-div-Automation_Practice_Suite -->
             </div> <!-- times-div -->
@@ -368,51 +327,49 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">ValidateHomePage</span>
-                <span class="method-start">6868 ms</span>
+                <span class="method-start">6500 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7146 ms</span>
+                <span class="method-start">6736 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Full.AutomationPractice.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">getBrowserLogin</span>
-                <span class="method-start">11996 ms</span>
+                <span class="method-start">11576 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">goToLoginPage</span>
-                <span class="method-start">16228 ms</span>
+                <span class="method-start">17687 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">loginNewUser</span>
-                <span class="method-start">17528 ms</span>
+                <span class="method-start">19200 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18011 ms</span>
+                <span class="method-start">22534 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Full.AutomationPractice.SignUpPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">getBrowserLogin</span>
-                <span class="method-start">22265 ms</span>
+                <span class="method-start">26816 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">NewUserSignup</span>
-                <span class="method-start">25819 ms</span>
+                <span class="method-start">31459 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addressDetails</span>
-                <span class="method-start">27987 ms</span>
+                <span class="method-start">34693 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28941 ms</span>
+                <span class="method-start">35665 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

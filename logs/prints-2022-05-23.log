@@ -1,7 +1,7 @@
-13:27:31.218 [main] INFO  resources.Base - Navigated to Automation Practice page
-13:27:33.558 [main] INFO  resources.Base - Entered Usrname, Pwd & clicked on submit
-14:07:31.039 [main] INFO  resources.Base - Driver is initialized
-14:07:35.224 [main] INFO  resources.Base - Navigated to Automation Practice page
-14:40:18.784 [main] INFO  resources.Base - Driver is initialized
-14:40:24.436 [main] INFO  resources.Base - Navigated to Automation Practice page
-14:43:02.030 [main] INFO  resources.Base - Driver is initialized
+14:50:39.053 [main] INFO  resources.Base - Clicked on Login Menu
+14:50:39.097 [main] INFO  resources.Base - Navigated to Login Page
+14:50:39.159 [main] INFO  resources.Base - New User Login page is displayed
+14:50:42.424 [main] INFO  resources.Base - Entered Username Pwd & clicked on submit
+14:50:42.430 [main] INFO  resources.Base - Landed on Signup New user Details page
+14:50:47.930 [main] INFO  resources.Base - Driver is initialized
+14:50:51.354 [main] INFO  resources.Base - On New user SignUp Page
